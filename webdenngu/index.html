@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lamp - 夜の中に優しい光を</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">LAMP</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#demo">デモ (Demo)</a></li>
+        <li><a href="#features">特徴</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-tag">夜中の目覚めに、新しい光の体験を</div>
+    <h1>夜中に起きてトイレに行っても<br>目が眩まないスマートランプ</h1>
+    <p>目覚めた瞬間に「やさしい光」から自動でスタート。睡眠リズムを崩さず、夜間の移動をサポートします。</p>
+    <a href="#demo" class="btn-cta">光の体験デモを試す</a>
+  </section>
+
+  <!-- INTERACTIVE DEMO (JAVASCRIPT SECTION) -->
+  <section class="demo-section" id="demo">
+    <h2>ランプ動作シミュレーション (Interactive Demo)</h2>
+    <p>ボタンを押して、光がゆっくり変わる様子を体験してください。</p>
+    
+    <div class="lamp-box" id="lampBox">
+      <div class="lamp-light" id="lampLight"></div>
+      <p id="statusText">状態: 消灯中 (Off)</p>
+    </div>
+
+    <button id="toggleBtn" class="btn-demo">センサー起動 (Start Sensor)</button>
+  </section>
+
+  <!-- FEATURES SECTION -->
+  <section class="features" id="features">
+    <h2 class="section-title">主な特徴 (Features)</h2>
+    <div class="grid-3">
+      <div class="card">
+        <div class="card-icon">🌙</div>
+        <h3>自動グラデーション調光</h3>
+        <p>最初は目に負担をかけない低照度の暖色光で点灯し、時間をかけてゆっくり白い光へと自動変化します。</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">👁️</div>
+        <h3>目に優しい設計</h3>
+        <p>突然の眩しさを防ぐことで、夜中に起きても目が痛くならず、スムーズに再入眠できます。</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📡</div>
+        <h3>スマート人感センサー</h3>
+        <p>ベッドから起きた動きを正確に検知し、暗闇でスイッチを探す手間をゼロにします。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="faq" id="faq">
+    <h2 class="section-title">よくある質問 (FAQ)</h2>
+    <div class="faq-item">
+      <div class="faq-question">Q. どのような人におすすめですか？</div>
+      <div class="faq-answer">夜中に起きてトイレに行く方、夜間の強い光に敏感な方に最適です。</div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>プロジェクトリーダー：チャン グエン ミン アイン | チーム：2580038 </p>
+    <p>&copy; 2026 Lamp Project. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
